@@ -55,7 +55,7 @@ const rightNavItems: NavItem[] = [
     },
     {
         title: 'Documentation',
-        href: 'https://laravel.com/docs/starter-kits',
+        href: 'https://laravel.com/docs/starter-kits#vue',
         icon: BookOpen,
     },
 ];

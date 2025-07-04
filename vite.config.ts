@@ -1,6 +1,5 @@
 import vue from '@vitejs/plugin-vue';
 import laravel from 'laravel-vite-plugin';
-import path from 'path';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import run from 'vite-plugin-run';
@@ -29,9 +28,4 @@ export default defineConfig({
             }
         ])
     ],
-    resolve: {
-        alias: {
-            '@': path.resolve(__dirname, './resources/js'),
-        },
-    },
 });
